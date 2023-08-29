@@ -1,0 +1,42 @@
+html {
+    box-sizing: inherit;
+    font-size: 15px;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    font-family: "Inter", system-ui;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}

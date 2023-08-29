@@ -1,0 +1,91 @@
+.card {
+    cursor: pointer;
+
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    width: fit-content;
+
+    padding: 2rem;
+
+    border-radius: 40px;
+    border: 1px solid #f3f3f3;
+    background: #fff;
+
+    transition: border .3s ease-in-out, box-shadow .3s ease-in-out, transform .2s ease-in-out;
+
+    &:hover {
+        border: 1px solid #f8f8f8;
+        box-shadow: 0px 14px 30px 0px rgba(0, 0, 0, 0.05);
+        transform: translateY(-5px);
+    }
+
+    &__fav {
+        position: absolute;
+        top: 2rem;
+        left: 2rem;
+    }
+
+    &__img {
+        margin-bottom: 1rem;
+        max-width: 200px;
+    }
+
+    &__name {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    &__bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        width: 100%;
+
+        margin-top: auto;
+    }
+
+    &__price {
+        display: flex;
+        flex-direction: column;
+        gap: 0.2rem;
+
+        span {
+            text-transform: uppercase;
+            color: #979797;
+        }
+    }
+
+    &__add {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        padding: 5px;
+
+        border-radius: 10px;
+        border: 1px solid #c5c5c5;
+
+        transition: background-color 0.3s ease-in-out;
+
+        svg {
+            width: 20px;
+            min-width: 20px;
+            stroke: #a0a0a0;
+
+            transition: stroke 0.3s ease-in-out;
+        }
+
+        &:hover {
+            background-color: #c5c5c5;
+
+            svg {
+                stroke: white;
+            }
+        }
+    }
+}

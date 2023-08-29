@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Apple iPhone 14 Pro Max eSIM 1 ТБ, темно-фиолетовый",
+        "imgSrc": "/images/phone-1.jpeg",
+        "price": 185990
+    },
+    {
+        "name": "Apple iPhone 14 Pro Max eSIM 512 ГБ, «чёрный космос»",
+        "imgSrc": "/images/phone-2.jpeg",
+        "price": 169990
+    },
+    {
+        "name": "Apple iPhone 14 Pro Max eSIM 256 ГБ, золотой",
+        "imgSrc": "/images/phone-3.jpeg",
+        "price": 145990
+    },
+    {
+        "name": "Apple iPhone 14 Pro Max dual-SIM 256 ГБ, темно-фиолетовый",
+        "imgSrc": "/images/phone-4.jpeg",
+        "price": 149990
+    },
+    {
+        "name": "Apple iPhone 14 Pro Max dual-SIM 256 ГБ",
+        "imgSrc": "/images/phone-4.jpeg",
+        "price": 149990
+    },
+    {
+        "name": "Телефон",
+        "imgSrc": "",
+        "price": 149990
+    }
+]
