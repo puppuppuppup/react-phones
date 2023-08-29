@@ -1,0 +1,41 @@
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .5);
+
+    z-index: 11;
+
+    opacity: 0;
+    pointer-events: none;
+}
+
+.cart {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    height: 100%;
+    width: 385px;
+
+    padding: 32px 30px;
+
+    background-color: #fff;
+    
+    z-index: 12;
+
+    &__title {
+        margin-bottom: 1rem;
+
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    &__items {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
