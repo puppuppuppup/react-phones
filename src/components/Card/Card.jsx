@@ -1,6 +1,6 @@
 import styles from "./Card.module.scss";
 
-const Card = ({ name, imgSrc, price}) => {
+const Card = ({ id, name, imgSrc, price, addCartItem }) => {
     return (
         <div className={ styles.card } >
             <img
@@ -19,7 +19,7 @@ const Card = ({ name, imgSrc, price}) => {
                     <span>Цена:</span>
                     <b>{ price } руб.</b>
                 </div>
-                <button className={ styles.card__add }>
+                <button className={ styles.card__add } onClick={() => addCartItem(id)}>
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"

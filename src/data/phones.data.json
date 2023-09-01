@@ -18,25 +18,5 @@
         "name": "Apple iPhone 14 Pro Max dual-SIM 256 ГБ, темно-фиолетовый",
         "imgSrc": "/images/phone-4.jpeg",
         "price": 149990
-    },
-    {
-        "name": "Apple iPhone 14 Pro Max dual-SIM 256 ГБ",
-        "imgSrc": "/images/phone-4.jpeg",
-        "price": 149990
-    },
-    {
-        "name": "Телефон",
-        "imgSrc": "",
-        "price": 149990
-    },
-    {
-        "name": "Телефон2",
-        "imgSrc": "",
-        "price": 10000
-    },
-    {
-        "name": "Телефон3",
-        "imgSrc": "",
-        "price": 10000
     }
 ]
